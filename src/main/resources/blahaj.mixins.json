@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "io.github.nuclearfarts.blahaj.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"refmap": "blahaj.refmap.json",
+	"mixins": [
+		"BlockStateImplementationMixin"
+	],
+	"client":[],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"minVersion": "0.8"
+}
